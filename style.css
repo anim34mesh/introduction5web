@@ -1,6 +1,50 @@
-h1{
-    background-color: red;
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-p{
-    color: tomato;
+/* shared style */
+ .text-primary{
+    color: #FD6E0A;
+ }
+ .dark-2{
+    color:#474747 ;
+ }
+ .btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+ }
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
 }
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+     text-align: center;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* nav style korlam */
+ nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+ }
